@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -44210,53 +44210,52 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="U$10" library="z0" deviceset="PCB_MOM_SPST_SWITCH" device=""/>
 <part name="U$11" library="z0" deviceset="PCB_MOM_SPST_SWITCH" device=""/>
 <part name="IC1" library="74xx-us" deviceset="74*14" device="N" technology="LS"/>
-<part name="R1" library="z0" deviceset="R-US_" device="0207/10"/>
-<part name="R2" library="z0" deviceset="R-US_" device="0207/10"/>
-<part name="R3" library="z0" deviceset="R-US_" device="0207/10"/>
-<part name="R4" library="z0" deviceset="R-US_" device="0207/10"/>
-<part name="R5" library="z0" deviceset="R-US_" device="0207/10"/>
-<part name="C1" library="z0" deviceset="C-US" device="025-025X050"/>
-<part name="C2" library="z0" deviceset="C-US" device="050-025X075"/>
+<part name="R1" library="z0" deviceset="R-US_" device="0207/10" value="39"/>
+<part name="R2" library="z0" deviceset="R-US_" device="0207/10" value="39"/>
+<part name="R3" library="z0" deviceset="R-US_" device="0207/10" value="39"/>
+<part name="R4" library="z0" deviceset="R-US_" device="0207/10" value="39"/>
+<part name="R5" library="z0" deviceset="R-US_" device="0207/10" value="220"/>
+<part name="C1" library="z0" deviceset="C-US" device="025-025X050" value="1n"/>
+<part name="C2" library="z0" deviceset="C-US" device="050-025X075" value="100n"/>
 <part name="U$12" library="z0" deviceset="FT37_BIFILAR_1" device=""/>
 <part name="U$13" library="z0" deviceset="GND" device=""/>
 <part name="P+1" library="z0" deviceset="+5V" device=""/>
 <part name="P+2" library="z0" deviceset="+5V" device=""/>
 <part name="U$14" library="z0" deviceset="GND" device=""/>
 <part name="U$15" library="z0" deviceset="GND" device=""/>
-<part name="C3" library="z0" deviceset="C-US" device="050-025X075"/>
+<part name="C3" library="z0" deviceset="C-US" device="050-025X075" value="100n"/>
 <part name="U$20" library="z0" deviceset="GND" device=""/>
 <part name="U$21" library="z0" deviceset="V_RF" device=""/>
-<part name="LED1" library="z0" deviceset="LED" device="5MM"/>
-<part name="R6" library="z0" deviceset="R-US_" device="0207/10"/>
-<part name="C6" library="z0" deviceset="C-US" device="025-025X050"/>
+<part name="LED1" library="z0" deviceset="LED" device="5MM" value="WP7113SRD/E"/>
+<part name="R6" library="z0" deviceset="R-US_" device="0207/10" value="220"/>
+<part name="C6" library="z0" deviceset="C-US" device="025-025X050" value="10n"/>
 <part name="U$22" library="z0" deviceset="V_RF" device=""/>
 <part name="D3" library="z0" deviceset="1N4007" device=""/>
 <part name="U$23" library="z0" deviceset="GND" device=""/>
-<part name="C7" library="z0" deviceset="C-US" device="025-025X050"/>
-<part name="L1" library="z0" deviceset="L-US" device="0204/5"/>
+<part name="C7" library="z0" deviceset="C-US" device="025-025X050" value="10n"/>
+<part name="L1" library="z0" deviceset="L-US" device="0207/10" value="47u"/>
 <part name="D4" library="z0" deviceset="1N4148" device="DO35-7"/>
 <part name="U$24" library="z0" deviceset="GND" device=""/>
-<part name="C8" library="z0" deviceset="C-US" device="025-025X050"/>
+<part name="C8" library="z0" deviceset="C-US" device="025-025X050" value="10n"/>
 <part name="U$25" library="z0" deviceset="GND" device=""/>
-<part name="LED2" library="z0" deviceset="LED" device="5MM"/>
-<part name="R7" library="z0" deviceset="R-US_" device="0207/10"/>
-<part name="C9" library="z0" deviceset="C-US" device="025-025X050"/>
+<part name="LED2" library="z0" deviceset="LED" device="5MM" value="WP7113SRD/E"/>
+<part name="R7" library="z0" deviceset="R-US_" device="0207/10" value="220"/>
+<part name="C9" library="z0" deviceset="C-US" device="025-025X050" value="10n"/>
 <part name="U$26" library="z0" deviceset="V_RF" device=""/>
 <part name="D5" library="z0" deviceset="1N4007" device=""/>
 <part name="U$27" library="z0" deviceset="GND" device=""/>
-<part name="C10" library="z0" deviceset="C-US" device="025-025X050"/>
-<part name="L2" library="z0" deviceset="L-US" device="0204/5"/>
+<part name="C10" library="z0" deviceset="C-US" device="025-025X050" value="10n"/>
+<part name="L2" library="z0" deviceset="L-US" device="0207/10" value="47u"/>
 <part name="D6" library="z0" deviceset="1N4148" device="DO35-7"/>
 <part name="U$28" library="z0" deviceset="GND" device=""/>
-<part name="C11" library="z0" deviceset="C-US" device="025-025X050"/>
+<part name="C11" library="z0" deviceset="C-US" device="025-025X050" value="10n"/>
 <part name="U$29" library="z0" deviceset="GND" device=""/>
-<part name="R8" library="z0" deviceset="R-US_" device="0207/10"/>
+<part name="R8" library="z0" deviceset="R-US_" device="0207/10" value="1k"/>
 <part name="P+7" library="z0" deviceset="+5V" device=""/>
-<part name="U$31" library="z0" deviceset="Z0_LOGO" device="200MIL_NO_Z"/>
 <part name="R9" library="z0" deviceset="R-US_" device="R0805"/>
 <part name="U$32" library="z0" deviceset="GND" device=""/>
 <part name="P+8" library="z0" deviceset="+5V" device=""/>
-<part name="C4" library="rcl" deviceset="CPOL-US" device="E2.5-6"/>
+<part name="C4" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="10u"/>
 <part name="P+3" library="z0" deviceset="+5V" device=""/>
 <part name="U$9" library="z0" deviceset="GND" device=""/>
 <part name="U$16" library="z0" deviceset="4AA_BATT_HOLDER" device="NO_HOLES" value="4AA_BATT_HOLDERNO_HOLES"/>
@@ -44271,7 +44270,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-137.16" y="88.9" size="2.54" layer="91">This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</text>
+<text x="-134.62" y="86.36" size="2.54" layer="91">This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. 
+To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</text>
 </plain>
 <instances>
 <instance part="U$10" gate="G$1" x="114.3" y="5.08"/>
@@ -44325,7 +44325,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="U$29" gate="G$1" x="220.98" y="-119.38"/>
 <instance part="R8" gate="G$1" x="86.36" y="7.62"/>
 <instance part="P+7" gate="1" x="76.2" y="20.32"/>
-<instance part="U$31" gate="G$1" x="-73.66" y="-99.06"/>
 <instance part="R9" gate="G$1" x="-99.06" y="-88.9" rot="R90"/>
 <instance part="U$32" gate="G$1" x="-99.06" y="-114.3"/>
 <instance part="P+8" gate="1" x="-99.06" y="-78.74"/>
@@ -44735,31 +44734,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </sheets>
 <errors>
 <approved hash="104,1,-30.48,40.64,IC1P,VCC,+5V,,,"/>
-<approved hash="115,1,0,-1.54517,R1,,,,,"/>
-<approved hash="115,1,0,-16.7852,R2,,,,,"/>
-<approved hash="115,1,0,-57.4252,R3,,,,,"/>
-<approved hash="115,1,0,-72.6652,R4,,,,,"/>
-<approved hash="115,1,-83.82,-24.4052,R5,,,,,"/>
-<approved hash="115,1,-97.952,-49.53,C1,,,,,"/>
-<approved hash="115,1,-54.772,26.67,C2,,,,,"/>
-<approved hash="115,1,24.13,-64.932,C3,,,,,"/>
-<approved hash="115,1,209.55,10.4817,LED1,,,,,"/>
-<approved hash="115,1,176.805,27.94,R6,,,,,"/>
-<approved hash="115,1,178.908,16.51,C6,,,,,"/>
-<approved hash="115,1,191.77,11.268,C7,,,,,"/>
-<approved hash="115,1,160.02,1.65947,L1,,,,,"/>
-<approved hash="115,1,222.088,-6.35,C8,,,,,"/>
-<approved hash="115,1,209.55,-86.0383,LED2,,,,,"/>
-<approved hash="115,1,176.805,-68.58,R7,,,,,"/>
-<approved hash="115,1,178.908,-80.01,C9,,,,,"/>
-<approved hash="115,1,191.77,-84.4334,C10,,,,,"/>
-<approved hash="115,1,160.02,-94.8605,L2,,,,,"/>
-<approved hash="115,1,222.907,-102.87,C11,,,,,"/>
-<approved hash="115,1,86.36,8.61483,R8,,,,,"/>
-<approved hash="115,1,-100.055,-88.9,R9,,,,,"/>
-<approved hash="115,1,-42.072,26.67,C4,,,,,"/>
-<approved hash="115,1,-98.7383,-100.33,LED3,,,,,"/>
+<approved hash="113,1,73.556,-40.744,FRAME1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
